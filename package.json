@@ -1,0 +1,22 @@
+{
+  "name": "wordpress-discord-automation",
+  "version": "1.0.0",
+  "description": "Automated Discord server setup for WordPress Pro Mastery",
+  "main": "setup-bot.js",
+  "scripts": {
+    "start": "node setup-bot.js",
+    "dev": "node setup-bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "wordpress",
+    "automation"
+  ],
+  "author": "Orca",
+  "license": "MIT"
+}
